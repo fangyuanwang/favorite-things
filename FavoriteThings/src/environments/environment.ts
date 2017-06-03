@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: "AIzaSyAtlIRgSIx_T5LYQRqljCbaaNfZnMiWVb4",
-    authDomain: "wangf-default.firebaseapp.com",
-    databaseURL: "https://wangf-default.firebaseio.com",
-    projectId: "wangf-default",
-    storageBucket: "wangf-default.appspot.com",
-    messagingSenderId: "307812624984"
+    apiKey: 'AIzaSyAtlIRgSIx_T5LYQRqljCbaaNfZnMiWVb4',
+    authDomain: 'wangf-default.firebaseapp.com',
+    databaseURL: 'https://wangf-default.firebaseio.com',
+    projectId: 'wangf-default',
+    storageBucket: 'wangf-default.appspot.com',
+    messagingSenderId: '307812624984'
   },
 };
