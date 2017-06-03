@@ -10,9 +10,12 @@
   <button type="button" (click)="setColor('#800000')">Rose Red</button>
   <br>
   <button type="button" (click)="updateColor()">Update</button>
-  <hr>
-  <h2>Favorite Number</h2>
 
+  <hr>
+  <h2>Favorite Number = {{favoriteNumber}}</h2>
+  <button type="button" (click)="setNumber(favoriteNumber + 1)">Up</button>
+  <button type="button" (click)="setNumber(favoriteNumber - 1)">Down</button>
+  <button type="button" (click)="setNumber(5)">Reset</button>
   <hr>
 
 

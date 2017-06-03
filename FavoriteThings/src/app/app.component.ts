@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Favorite Thing';
   favoriteColor = 'pink';
+  favoriteNumber = 5;
 
   setColor(selectedColor: string): void {
     this.favoriteColor = selectedColor;
@@ -16,4 +17,9 @@ export class AppComponent {
   updateColor(): void {
     console.log('TODO: update color');
   }
+
+  setNumber(newFavoriteNumber: number): void {
+    this.favoriteNumber = newFavoriteNumber;
+  }
+
 }
