@@ -1,4 +1,4 @@
-# favorite-things
+# Favorite Things
 
 Small follow along project for CSSE 490 Angular + Firebase
 
